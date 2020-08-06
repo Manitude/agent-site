@@ -12,7 +12,7 @@
 
         // Apply mapplic plugin 
         var mapplic = $('#mapplic').mapplic({
-            source: 'http://pages.revox.io/json/countries.json',
+            source: 'https://pages.revox.io/json/countries.json',
             height: '100%',
             search: false,
             sidebar: false,
@@ -33,7 +33,7 @@
         });
 
         // Load country list into select2
-        $.getJSON('http://pages.revox.io/json/countries.json', function(data) {
+        $.getJSON('https://pages.revox.io/json/countries.json', function(data) {
             var countryList = [];
 
             $.each(data.levels[0].locations, function(key, val) {

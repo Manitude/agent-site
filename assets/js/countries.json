@@ -8,7 +8,7 @@
 		{
 			"id":"countries",
 			"title":"Countries",
-			"map":"http://pages.revox.io/json/maps/pages-map.svg",
+			"map":"https://pages.revox.io/json/maps/pages-map.svg",
 			"minimap":"assets/img/maps/us-small.jpg",
 			"locations":[
 			{

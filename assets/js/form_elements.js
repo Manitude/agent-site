@@ -36,15 +36,15 @@
 		var countries = new Bloodhound({
 			datumTokenizer: Bloodhound.tokenizers.whitespace,
 			queryTokenizer: Bloodhound.tokenizers.whitespace,
-			prefetch: 'http://pages.revox.io/json/countries-list.json'
+			prefetch: 'https://pages.revox.io/json/countries-list.json'
 		});
 
 		var bestPictures = new Bloodhound({
 			datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
 			queryTokenizer: Bloodhound.tokenizers.whitespace,
-			prefetch: 'http://pages.revox.io/json/drop-countries.json',
+			prefetch: 'https://pages.revox.io/json/drop-countries.json',
 			remote: {
-				url: 'http://pages.revox.io/json/drop-countries.json',
+				url: 'https://pages.revox.io/json/drop-countries.json',
 				wildcard: '%QUERY'
 			}
 		});
